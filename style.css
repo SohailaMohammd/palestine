@@ -1,0 +1,88 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #01022d, black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    height: 640px;
+    background-image: linear-gradient(to right, #01022d 30%, #00000088), url(photo_2023-11-14_20-28-49.jpg);
+
+}
+
+.container:hover {
+    background-image: linear-gradient(to right, #01022d 30%, transparent), url(photo_2023-11-14_20-28-49.jpg);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+ul {
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul a {
+    border-bottom: 2px solid transparent;
+}
+
+ul a:hover {
+    border-bottom: white;
+}
+
+.content {
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.content p {
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 5px 0;
+}
+
+.content button {
+
+    color: black;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.content button:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+
+}
